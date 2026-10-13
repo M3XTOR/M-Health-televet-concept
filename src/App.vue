@@ -1,13 +1,13 @@
 <script setup>
-import Hero from "./components/hero.vue";
-import Introduction from "./components/Introduction.vue";
-import SubscriptionPlans from "./components/SubscriptionPlans.vue";
-import LatestTips from "./components/LatestTips.vue";
-import Footer from "./components/Footer.vue";
+import Hero from "./components/home/Hero.vue";
+import Introduction from "./components/home/Introduction.vue";
+import SubscriptionPlans from "./components/home/SubscriptionPlans.vue";
+import LatestTips from "./components/home/LatestTips.vue";
+import Footer from "./components/layout/Footer.vue";
 </script>
 
 <template>
-  <div class="page">
+  <div id="top" class="page">
     <Hero />
     <Introduction />
     <SubscriptionPlans />
@@ -15,8 +15,6 @@ import Footer from "./components/Footer.vue";
     <Footer />
   </div>
 </template>
-
-<div id="top" class="page"></div>
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
