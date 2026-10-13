@@ -1,17 +1,10 @@
 <script setup>
-import Hero from "./components/home/Hero.vue";
-import Introduction from "./components/home/Introduction.vue";
-import SubscriptionPlans from "./components/home/SubscriptionPlans.vue";
-import LatestTips from "./components/home/LatestTips.vue";
 import Footer from "./components/layout/Footer.vue";
 </script>
 
 <template>
-  <div id="top" class="page">
-    <Hero />
-    <Introduction />
-    <SubscriptionPlans />
-    <LatestTips />
+  <div class="page">
+    <RouterView />
     <Footer />
   </div>
 </template>
